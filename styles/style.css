@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background: url(../img/first-bg.jpg)  no-repeat center top / cover;
+	height: 100vh;
+}
+div {
+	box-sizing: border-box;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {	
+	margin: 0 auto;
+	width: 930px;
+	border: 1px solid red;
+}
+.container img {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.container ul li a {	
+	text-decoration: none;
+	text-transform: uppercase;	
+	color: #000000FF;
+}
+
+.container ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 0px;
+	margin-top: 20px;
+	float: right;
+}
