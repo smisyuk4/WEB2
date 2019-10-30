@@ -24,21 +24,65 @@ div {
 	width: 930px;
 	border: 1px solid red;
 }
-.container img {
-	margin-top: 20px;
-	margin-left: 20px;
+
+.logo {
+	margin-top: 40px;
+	float: left;
 }
 
-.container ul li a {	
+nav {
+	float: right;
+	margin-top: 50px;
+}
+
+.menu {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {	
+	float: left;
+	display: block;
+	margin-left: 40px;
+}
+
+.menu li a {		
 	text-decoration: none;
 	text-transform: uppercase;	
-	color: #000000FF;
+	color: #FFFFFFFF;
+	font-size: 14px;	
 }
 
-.container ul li {
-	list-style-type: none;
-	display: inline-block;
-	margin-right: 0px;
-	margin-top: 20px;
-	float: right;
+.titles_first {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #FFFFFFFF;
+	text-align: center;
+	margin-top: 180px;
 }
+
+.titles h1{
+	font-size: 70px;
+	text-transform: uppercase;
+	color: #FFFFFFFF;
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+}
+
+.button {
+	background: #F0E90EFF;
+	color: #5360ABFF;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 50px;
+}
+
