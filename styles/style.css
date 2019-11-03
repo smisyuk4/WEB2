@@ -86,3 +86,50 @@ nav {
 	margin-top: 50px;
 }
 
+.section1 {
+	background: #FFFFFFFF;
+	height: 500px;
+}
+
+.titles_second {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #000000FF;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.section1 p {
+	font-size: 14px;
+	color: #A0A0A0;
+	text-align: center;
+	text-transform: none;
+	margin: 5px 0 40px 0;
+}
+
+.option {
+	border: 1px solid red;
+	width: 310px;
+
+}
+
+.option img {
+	margin: 0 auto;
+}
+
+.option h2 {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.option p {
+	font-size: 14px;
+	color: #A0A0A0;
+	text-align: justify;
+}
+
+#op1 {
+	border: 1px solid green;
+}
