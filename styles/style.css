@@ -6,8 +6,8 @@
 
 header {
 	background: url(../img/first-bg.jpg)  no-repeat center top / cover;
-	height: 700px;
 }
+
 div {
 	box-sizing: border-box;
 }
@@ -54,7 +54,7 @@ nav {
 }
 
 .titles {
-	padding-top: 120px;
+	padding: 120px 0 80px 0;
 }
 
 .titles_first {
@@ -62,10 +62,10 @@ nav {
 	text-transform: uppercase;
 	color: #FFFFFFFF;
 	text-align: center;
-	margin-top: 180px;
+	margin-top: 210px;
 }
 
-.titles h1{
+.titles_first h1{
 	font-size: 70px;
 	text-transform: uppercase;
 	color: #FFFFFFFF;
@@ -79,14 +79,17 @@ nav {
 	border-radius: 3px;
 	display: block;
 	width: 240px;
-	padding: 20px 0;
-	margin: 0 auto;
+	padding: 20px 0;	
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 18px;
 	text-align: center;
-	margin-top: 55px;
+	margin: 55px auto;
+}
+
+#button {
+	padding-bottom: 100px;
 }
 
 #services {
@@ -110,7 +113,7 @@ nav {
 }
 
 .services {
-	padding: 80px 0 120px 0;
+	padding-bottom: 120px;
 }
 
 .services_item {
@@ -146,7 +149,7 @@ nav {
 
 .partfolio_item {
 	float: left;
-	padding: 80px 0 120px 0;
+	padding-bottom: 120px;
 }
 
 .partfolio_item:last-child {
@@ -157,35 +160,42 @@ nav {
 	margin-left: 30px;
 }
 
-.history img{	
-	display: block;	
-	padding: 35px;
+.history_r img {
+	float: right;
+	padding: 0 370px 90px 35px;		
 }
 
-.history div {
-	
+.history_r div {
+	width: 280px;
+	float: right;
+	text-align: right;			
 }
 
-.history h4 {
-	color: #222222;	
-	line-height: 1.5;
+#about_us h4 {
+	color: #222222;		
 	padding-bottom: 5px;
 }
 
 
-.history p {
+#about_us p {
+	padding-top: 15px;
 	color: #777777;	
 	line-height: 1.3;
 }
 
+.history_l img {
+	float: left;
+	padding: 0 35px 90px 370px;	
+}
 
+.history_l div {
+	width: 280px;
+	float: left;
+	text-align: left;			
+}
 
-
-
-
-
-
-
-.footer p {
+footer p {	
+	padding: 30px 0 115px 0;
 	text-align: center;
+	color: #777777;	
 }
